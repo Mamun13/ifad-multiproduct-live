@@ -13,7 +13,6 @@ const Values = () => {
 		<div>
 			<div className="timeline__event animated fadeInUp delay-2s timeline__event--type2">
 				<div className="timeline__event__icon">
-					{/* <!-- <i className="lni-sport"></i>--> */}
 
 				</div>
 				<div className="timeline__event__date">
@@ -33,7 +32,6 @@ const Values = () => {
 
 	<div className="timeline__event animated fadeInUp delay-1s timeline__event--type3">
 		<div className="timeline__event__icon">
-			{/* <!-- <i className="lni-sport"></i>--> */}
 
 		</div>
 		<div className="timeline__event__date">
@@ -54,7 +52,6 @@ const Values = () => {
 
 	<div className="timeline__event animated fadeInUp timeline__event--type1">
 		<div className="timeline__event__icon">
-			{/* <!-- <i className="lni-sport"></i>--> */}
 
 		</div>
 		<div className="timeline__event__date">
@@ -73,7 +70,6 @@ const Values = () => {
 	{/* <!--first--> */}
 	<div className="timeline__event  animated fadeInUp delay-3s timeline__event--type1">
 		<div className="timeline__event__icon ">
-			{/* <!-- <i className="lni-sport"></i>--> */}
 
 		</div>
 		<div className="timeline__event__date">
@@ -93,7 +89,6 @@ const Values = () => {
 
 	<div className="timeline__event animated fadeInUp delay-2s timeline__event--type2">
 		<div className="timeline__event__icon">
-			{/* <!-- <i className="lni-sport"></i>--> */}
 
 		</div>
 		<div className="timeline__event__date">
@@ -113,7 +108,6 @@ const Values = () => {
 
 	<div className="timeline__event animated fadeInUp delay-1s timeline__event--type3">
 		<div className="timeline__event__icon">
-			{/* <!-- <i className="lni-sport"></i>--> */}
 
 		</div>
 		<div className="timeline__event__date">
@@ -134,7 +128,6 @@ const Values = () => {
 
 	<div className="timeline__event animated fadeInUp timeline__event--type1">
 		<div className="timeline__event__icon">
-			{/* <!-- <i className="lni-sport"></i>--> */}
 
 		</div>
 		<div className="timeline__event__date">

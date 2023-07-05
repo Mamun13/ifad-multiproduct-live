@@ -112,6 +112,9 @@ a {
 .fRight {
 	float: right;
 }
+.logo-color{
+	color: #D71921;
+}
 .activeLink {
 	color: #ff0080 !important;
 }
@@ -1190,7 +1193,10 @@ span.contact-button {
 	height: auto;
 	width: 100%;
 }
-
+.value-image{
+	margin-left: 50%;
+	// transform: translate(-50%);
+}
 
  .value-align{
 	top: 30%;
@@ -1322,7 +1328,7 @@ span.contact-button {
 // .value-icon-one{
 // 	ght
 // }
-.values-align{
+.value-items{
 	margin-left: 50%;
 	transform: translate(-50%);
 }

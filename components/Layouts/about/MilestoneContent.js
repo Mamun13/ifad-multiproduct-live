@@ -7,6 +7,13 @@ import Image from "next/image";
 import MissionImage from "../../../public/mission.png";
 import VisionImage from "../../../public/vision.png";
 import Values from "./Values";
+import { Container, Row } from "react-bootstrap";
+import ValuePicOne from "../../../public/values/1.png";
+import ValuePicTwo from "../../../public/values/2.png";
+import ValuePicThree from "../../../public/values/3.png";
+import ValuePicFour from "../../../public/values/4.png";
+import ValuePicFive from "../../../public/values/5.png";
+import ValuePicSix from "../../../public/values/6.png";
 
 const PageMilestone = ({ sendcompanyData, MissionVission, ValusData }) => {
   const contectLoop = sendcompanyData?.content_item.map((content, idx) => {
@@ -99,18 +106,17 @@ const PageMilestone = ({ sendcompanyData, MissionVission, ValusData }) => {
           <div className="row">
             <div className="col-lg-6 col-md-6 bg-danger mission d-flex align-items-center">
               <div>
-              <h1 className="text-center text-capitalize font-poppins fw-bold pt-5 font-32">
-                our <span className="theme-color"> mission</span> 
-              </h1>
-              <p className="text-center px-3 pb-5 ">
-                Our mission is to satisfy the need of the consumers by offering
-                them high quality products and solutios at the right place at
-                right value . We will do that by driving continuous onnovations,
-                process improvements, people development while adding value for
-                all stakeholders.
-              </p>
+                <h1 className="text-center text-capitalize font-poppins fw-bold pt-5 font-32">
+                  our <span className="theme-color"> mission</span>
+                </h1>
+                <p className="text-center px-3 pb-5 ">
+                  Our mission is to satisfy the need of the consumers by
+                  offering them high quality products and solutios at the right
+                  place at right value . We will do that by driving continuous
+                  onnovations, process improvements, people development while
+                  adding value for all stakeholders.
+                </p>
               </div>
-             
             </div>
             <div className="col-lg-6 col-md-6">
               <div className="text-center">
@@ -135,7 +141,7 @@ const PageMilestone = ({ sendcompanyData, MissionVission, ValusData }) => {
             <div className="col-lg-6 col-md-6 bg-danger vision d-flex align-items-center">
               <div>
                 <h1 className="text-center text-capitalize font-poppins fw-bold font-32">
-                  our <span className="theme-color"> vision</span> 
+                  our <span className="theme-color"> vision</span>
                 </h1>
                 <p className="text-center px-3">
                   To delight consumers by providing high quality and affordable
@@ -144,15 +150,134 @@ const PageMilestone = ({ sendcompanyData, MissionVission, ValusData }) => {
               </div>
             </div>
           </div>
-          <h1 className="text-center text-capitalize font-poppins fw-bolder pt-5 font-32">
-            our <span className="theme-color"> values</span>
-          </h1>
-          <div className="values-align py-4">
-            <Values/>
-          </div>
         </div>
       </section>
 
+      {/* value part */}
+      <section>
+        <Container>
+          <Row>
+            <h1 className="text-center text-capitalize font-poppins fw-bolder pt-5 font-32">
+              our <span className="theme-color"> values</span>
+            </h1>
+            <div className="col-lg-7 d-flex justify-content-start value-items">
+              <div className="col-lg-1">
+                <Image
+                  src={ValuePicOne}
+                  alt=""
+                  height={70}
+                  width={70}
+                  className="value-image"
+                />
+              </div>
+              <div className="col-lg-11 d-flex align-items-center">
+                <p className="display-8 ps-3">
+                  <span className="fw-bold logo-color">
+                    Consumer/Customer Focus:{" "}
+                  </span>
+                  Keeping consumers at the forefront of all our actions and
+                  decisions.
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-7 d-flex justify-content-start value-items">
+              <div className="col-lg-1">
+                <Image
+                  src={ValuePicTwo}
+                  alt=""
+                  height={70}
+                  width={70}
+                  className=""
+                />
+              </div>
+              <div className="col-lg-11 d-flex align-items-center">
+                <p className="display-8 ps-3">
+                  <span className="fw-bold logo-color">Innovative: </span>
+                  Continuously innovate products to stay ahead of time.
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-7 d-flex justify-content-start value-items">
+              <div className="col-lg-1">
+                <Image
+                  src={ValuePicThree}
+                  alt=""
+                  height={70}
+                  width={70}
+                  className=""
+                />
+              </div>
+              <div className="col-lg-11 d-flex align-items-center">
+                <p className="display-8 ps-3">
+                  <span className="fw-bold logo-color">
+                    Quality First:{" "}
+                  </span>
+                  Maintain highest quality standard of product services and prople.
+                </p>
+              </div>
+            </div>
+
+            <div className="col-lg-7 d-flex justify-content-start value-items">
+              <div className="col-lg-1">
+                <Image
+                  src={ValuePicFour}
+                  alt=""
+                  height={70}
+                  width={70}
+                  className=""
+                />
+              </div>
+              <div className="col-lg-11 d-flex align-items-center">
+                <p className="display-8 ps-3">
+                  <span className="fw-bold logo-color">
+                    Accountability:{" "}
+                  </span>
+                  prople are empowered and accountable for deliverables
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-7 d-flex justify-content-start value-items">
+              <div className="col-lg-1">
+                <Image
+                  src={ValuePicFive}
+                  alt=""
+                  height={70}
+                  width={70}
+                  className=""
+                />
+              </div>
+              <div className="col-lg-11 d-flex align-items-center">
+                <p className="display-8 ps-3">
+                  <span className="fw-bold logo-color">Integrity: </span>
+                  Maintain highest level of honesty and transparency.
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-7 d-flex justify-content-start value-items">
+              <div className="col-lg-1">
+                <Image
+                  src={ValuePicSix}
+                  alt=""
+                  height={70}
+                  width={70}
+                  className=""
+                />
+              </div>
+              <div className="col-lg-11 d-flex align-items-center">
+                <p className="display-8 ps-3">
+                  <span className="fw-bold logo-color">
+                  Passionate Team:{" "}
+                  </span>
+                  Work as a winning collaborative and passionate team in driving excellence.
+                </p>
+              </div>
+            </div>
+            <div className="values-align py-4">
+              <Values />
+            </div>
+          </Row>
+        </Container>
+      </section>
     </>
   );
 };
