@@ -272,9 +272,7 @@ const PageMilestone = ({ sendcompanyData, MissionVission, ValusData }) => {
                 </p>
               </div>
             </div>
-            <div className="values-align py-4">
-              <Values />
-            </div>
+            
           </Row>
         </Container>
       </section>
