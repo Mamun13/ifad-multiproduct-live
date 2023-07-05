@@ -101,53 +101,59 @@ const PageMilestone = ({ sendcompanyData, MissionVission, ValusData }) => {
       {/* mission part start */}
 
       <section id="missionVission" className="values">
-        <div className="container-fluid">
+        <div className="container">
           <div className="row">
-            <div className="col-lg-6 col-md-6 bg-danger mission d-flex align-items-center">
-              <div>
+            <div className="">
+              <div className="d-flex justify-content-between">
+                <div className="text-center">
+                  <Image
+                    src={MissionImage}
+                    alt="vision"
+                    height={150}
+                    width={150}
+                  />
+                </div>
                 <h1 className="text-center text-capitalize font-poppins fw-bold pt-5 font-32">
                   our <span className="theme-color"> mission</span>
                 </h1>
-                <p className="text-center px-3 pb-5 ">
-                  Our mission is to satisfy the need of the consumers by
-                  offering them high quality products and solutios at the right
-                  place at right value . We will do that by driving continuous
-                  onnovations, process improvements, people development while
-                  adding value for all stakeholders.
-                </p>
+              </div>
+              <div className=" mission">
+                <div>
+                  <p className="text-justify px-3 pb-5 f20">
+                    Our mission is to satisfy the need of the consumers by
+                    offering them high quality products and solutios at the
+                    right place at right value . We will do that by driving
+                    continuous onnovations, process improvements, people
+                    development while adding value for all stakeholders.
+                  </p>
+                </div>
               </div>
             </div>
-            <div className="col-lg-6 col-md-6">
-              <div className="text-center">
-                <Image
-                  src={MissionImage}
-                  alt="vision"
-                  height={200}
-                  width={200}
-                />
-              </div>
-            </div>
-            <div className="col-lg-6 col-md-6">
-              <div className="text-center ">
+            <div className="">
+              <div className="d-flex justify-content-between">
+                <div className="text-center">
                 <Image
                   src={VisionImage}
                   alt="vision"
-                  height={200}
-                  width={200}
+                  height={150}
+                  width={150}
                 />
-              </div>
-            </div>
-            <div className="col-lg-6 col-md-6 bg-danger vision d-flex align-items-center">
-              <div>
-                <h1 className="text-center text-capitalize font-poppins fw-bold font-32">
-                  our <span className="theme-color"> vision</span>
+                </div>
+                <h1 className="text-center text-capitalize font-poppins fw-bold pt-5 font-32">
+                our <span className="theme-color"> vision</span>
                 </h1>
-                <p className="text-center px-3">
+              </div>
+              <div className=" mission">
+                <div>
+                  <p className="text-justify px-3 pb-4 f20">
                   To delight consumers by providing high quality and affordable
                   products that creates happy and healthy lives.
-                </p>
+                  </p>
+                </div>
               </div>
             </div>
+
+           
           </div>
         </div>
       </section>
@@ -156,7 +162,7 @@ const PageMilestone = ({ sendcompanyData, MissionVission, ValusData }) => {
       <section>
         <Container>
           <Row>
-            <h1 className="text-center text-capitalize font-poppins fw-bolder pt-5 font-32">
+            <h1 className="text-center text-capitalize font-poppins fw-bolder py-4 font-32">
               our <span className="theme-color"> values</span>
             </h1>
             <div className="col-lg-7 d-flex justify-content-start value-items">
@@ -208,10 +214,9 @@ const PageMilestone = ({ sendcompanyData, MissionVission, ValusData }) => {
               </div>
               <div className="col-lg-11 d-flex align-items-center">
                 <p className="display-8 ps-3">
-                  <span className="fw-bold logo-color">
-                    Quality First:{" "}
-                  </span>
-                  Maintain highest quality standard of product services and prople.
+                  <span className="fw-bold logo-color">Quality First: </span>
+                  Maintain highest quality standard of product services and
+                  prople.
                 </p>
               </div>
             </div>
@@ -228,9 +233,7 @@ const PageMilestone = ({ sendcompanyData, MissionVission, ValusData }) => {
               </div>
               <div className="col-lg-11 d-flex align-items-center">
                 <p className="display-8 ps-3">
-                  <span className="fw-bold logo-color">
-                    Accountability:{" "}
-                  </span>
+                  <span className="fw-bold logo-color">Accountability: </span>
                   prople are empowered and accountable for deliverables
                 </p>
               </div>
@@ -264,14 +267,12 @@ const PageMilestone = ({ sendcompanyData, MissionVission, ValusData }) => {
               </div>
               <div className="col-lg-11 d-flex align-items-center">
                 <p className="display-8 ps-3">
-                  <span className="fw-bold logo-color">
-                  Passionate Team:{" "}
-                  </span>
-                  Work as a winning collaborative and passionate team in driving excellence.
+                  <span className="fw-bold logo-color">Passionate Team: </span>
+                  Work as a winning collaborative and passionate team in driving
+                  excellence.
                 </p>
               </div>
             </div>
-            
           </Row>
         </Container>
       </section>
