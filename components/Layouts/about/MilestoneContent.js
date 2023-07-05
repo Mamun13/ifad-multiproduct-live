@@ -6,7 +6,6 @@ import Card from "react-bootstrap/Card";
 import Image from "next/image";
 import MissionImage from "../../../public/mission.png";
 import VisionImage from "../../../public/vision.png";
-import Values from "./Values";
 import { Container, Row } from "react-bootstrap";
 import ValuePicOne from "../../../public/values/1.png";
 import ValuePicTwo from "../../../public/values/2.png";
@@ -272,9 +271,7 @@ const PageMilestone = ({ sendcompanyData, MissionVission, ValusData }) => {
                 </p>
               </div>
             </div>
-            <div className="values-align py-4">
-              <Values />
-            </div>
+            
           </Row>
         </Container>
       </section>
