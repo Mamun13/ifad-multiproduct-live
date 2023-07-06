@@ -153,7 +153,6 @@ const PageMilestone = ({ sendcompanyData, MissionVission, ValusData }) => {
               </div>
             </div>
 
-           
           </div>
         </div>
       </section>
@@ -176,7 +175,7 @@ const PageMilestone = ({ sendcompanyData, MissionVission, ValusData }) => {
                 />
               </div>
               <div className="col-lg-11 d-flex align-items-center">
-                <p className="display-8 ps-3">
+                <p className="f20 ps-3">
                   <span className="fw-bold logo-color">
                     Consumer/Customer Focus:{" "}
                   </span>
@@ -196,7 +195,7 @@ const PageMilestone = ({ sendcompanyData, MissionVission, ValusData }) => {
                 />
               </div>
               <div className="col-lg-11 d-flex align-items-center">
-                <p className="display-8 ps-3">
+                <p className="f20 ps-3">
                   <span className="fw-bold logo-color">Innovative: </span>
                   Continuously innovate products to stay ahead of time.
                 </p>
@@ -213,7 +212,7 @@ const PageMilestone = ({ sendcompanyData, MissionVission, ValusData }) => {
                 />
               </div>
               <div className="col-lg-11 d-flex align-items-center">
-                <p className="display-8 ps-3">
+                <p className="f20 ps-3">
                   <span className="fw-bold logo-color">Quality First: </span>
                   Maintain highest quality standard of product services and
                   prople.
@@ -232,7 +231,7 @@ const PageMilestone = ({ sendcompanyData, MissionVission, ValusData }) => {
                 />
               </div>
               <div className="col-lg-11 d-flex align-items-center">
-                <p className="display-8 ps-3">
+                <p className="f20 ps-3">
                   <span className="fw-bold logo-color">Accountability: </span>
                   prople are empowered and accountable for deliverables
                 </p>
@@ -249,7 +248,7 @@ const PageMilestone = ({ sendcompanyData, MissionVission, ValusData }) => {
                 />
               </div>
               <div className="col-lg-11 d-flex align-items-center">
-                <p className="display-8 ps-3">
+                <p className="f20 ps-3">
                   <span className="fw-bold logo-color">Integrity: </span>
                   Maintain highest level of honesty and transparency.
                 </p>
@@ -266,7 +265,7 @@ const PageMilestone = ({ sendcompanyData, MissionVission, ValusData }) => {
                 />
               </div>
               <div className="col-lg-11 d-flex align-items-center">
-                <p className="display-8 ps-3">
+                <p className="f20 ps-3">
                   <span className="fw-bold logo-color">Passionate Team: </span>
                   Work as a winning collaborative and passionate team in driving
                   excellence.
