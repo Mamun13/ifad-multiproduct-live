@@ -108,9 +108,10 @@ const PageMilestone = ({ sendcompanyData, MissionVission, ValusData }) => {
                 <div className="text-center">
                   <Image
                     src={MissionImage}
-                    alt="vision"
+                    alt="mission"
                     height={150}
                     width={150}
+                    className="mission-img"
                   />
                 </div>
                 <h1 className="text-center text-capitalize font-poppins fw-bold pt-5 font-32">
@@ -164,8 +165,8 @@ const PageMilestone = ({ sendcompanyData, MissionVission, ValusData }) => {
             <h1 className="text-center text-capitalize font-poppins fw-bolder py-4 font-32">
               our <span className="theme-color"> values</span>
             </h1>
-            <div className="col-lg-7 d-flex justify-content-start value-items">
-              <div className="col-lg-1">
+            <div className="col-lg-7 col-md-7 d-flex justify-content-start value-items">
+              <div className="col-lg-1 col-md-1">
                 <Image
                   src={ValuePicOne}
                   alt=""
@@ -174,7 +175,7 @@ const PageMilestone = ({ sendcompanyData, MissionVission, ValusData }) => {
                   className="value-image"
                 />
               </div>
-              <div className="col-lg-11 d-flex align-items-center">
+              <div className="col-lg-11 col-md-11 d-flex align-items-center">
                 <p className="f20 ps-3">
                   <span className="fw-bold logo-color">
                     Consumer/Customer Focus:{" "}
@@ -184,8 +185,8 @@ const PageMilestone = ({ sendcompanyData, MissionVission, ValusData }) => {
                 </p>
               </div>
             </div>
-            <div className="col-lg-7 d-flex justify-content-start value-items">
-              <div className="col-lg-1">
+            <div className="col-lg-7 col-md-7 d-flex justify-content-start value-items">
+              <div className="col-lg-1 col-md-1">
                 <Image
                   src={ValuePicTwo}
                   alt=""
@@ -194,15 +195,15 @@ const PageMilestone = ({ sendcompanyData, MissionVission, ValusData }) => {
                   className=""
                 />
               </div>
-              <div className="col-lg-11 d-flex align-items-center">
+              <div className="col-lg-11 col-md-11 d-flex align-items-center">
                 <p className="f20 ps-3">
                   <span className="fw-bold logo-color">Innovative: </span>
                   Continuously innovate products to stay ahead of time.
                 </p>
               </div>
             </div>
-            <div className="col-lg-7 d-flex justify-content-start value-items">
-              <div className="col-lg-1">
+            <div className="col-lg-7 col-md-7 d-flex justify-content-start value-items">
+              <div className="col-lg-1 col-sm-1">
                 <Image
                   src={ValuePicThree}
                   alt=""
@@ -211,7 +212,7 @@ const PageMilestone = ({ sendcompanyData, MissionVission, ValusData }) => {
                   className=""
                 />
               </div>
-              <div className="col-lg-11 d-flex align-items-center">
+              <div className="col-lg-11 col-md-11 d-flex align-items-center">
                 <p className="f20 ps-3">
                   <span className="fw-bold logo-color">Quality First: </span>
                   Maintain highest quality standard of product services and
@@ -220,8 +221,8 @@ const PageMilestone = ({ sendcompanyData, MissionVission, ValusData }) => {
               </div>
             </div>
 
-            <div className="col-lg-7 d-flex justify-content-start value-items">
-              <div className="col-lg-1">
+            <div className="col-lg-7 col-md-7 d-flex justify-content-start value-items">
+              <div className="col-lg-1 col-md-1">
                 <Image
                   src={ValuePicFour}
                   alt=""
@@ -230,15 +231,15 @@ const PageMilestone = ({ sendcompanyData, MissionVission, ValusData }) => {
                   className=""
                 />
               </div>
-              <div className="col-lg-11 d-flex align-items-center">
+              <div className="col-lg-11 col-md-11 d-flex align-items-center">
                 <p className="f20 ps-3">
                   <span className="fw-bold logo-color">Accountability: </span>
                   prople are empowered and accountable for deliverables
                 </p>
               </div>
             </div>
-            <div className="col-lg-7 d-flex justify-content-start value-items">
-              <div className="col-lg-1">
+            <div className="col-lg-7 col-md-7 d-flex justify-content-start value-items">
+              <div className="col-lg-1 col-md-1">
                 <Image
                   src={ValuePicFive}
                   alt=""
@@ -247,15 +248,15 @@ const PageMilestone = ({ sendcompanyData, MissionVission, ValusData }) => {
                   className=""
                 />
               </div>
-              <div className="col-lg-11 d-flex align-items-center">
+              <div className="col-lg-11 col-md-11 d-flex align-items-center">
                 <p className="f20 ps-3">
                   <span className="fw-bold logo-color">Integrity: </span>
                   Maintain highest level of honesty and transparency.
                 </p>
               </div>
             </div>
-            <div className="col-lg-7 d-flex justify-content-start value-items">
-              <div className="col-lg-1">
+            <div className="col-lg-7 col-md-7  d-flex justify-content-start value-items">
+              <div className="col-lg-1 col-md-1 ">
                 <Image
                   src={ValuePicSix}
                   alt=""
@@ -264,7 +265,7 @@ const PageMilestone = ({ sendcompanyData, MissionVission, ValusData }) => {
                   className=""
                 />
               </div>
-              <div className="col-lg-11 d-flex align-items-center">
+              <div className="col-lg-11 col-md-11 d-flex align-items-center">
                 <p className="f20 ps-3">
                   <span className="fw-bold logo-color">Passionate Team: </span>
                   Work as a winning collaborative and passionate team in driving
